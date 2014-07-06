@@ -1,6 +1,18 @@
 # Bndtools: OSGi Development Tools for Eclipse
 =====================
 
+## Quickfix fork to work with the bnd editor in eclipse if a dark theme is set.
+The colors are hardcoded into bndtools, so if you use a dark background the text color will be black, tough luck
+
+### Use
+build fork with gradle (gradle 2.0 needed):
+    
+    gradle
+    
+use the plugin built from source in eclipse via:
+
+`Help` -> `Install New Software` -> `Add...` -> `Archive...` -> Choose your `bndtools/build/generated/bndtools-latest.zip` -> `Ok`
+
 Please visit the [Bndtools Home Page](http://bndtools.org) for full documentation.
 
 ## Installation
