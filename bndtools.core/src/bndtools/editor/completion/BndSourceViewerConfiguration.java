@@ -31,13 +31,13 @@ public class BndSourceViewerConfiguration extends SourceViewerConfiguration {
     MultiLineCommentScanner multiLineCommentScanner;
 
     public BndSourceViewerConfiguration(ISharedTextColors colors) {
-        T_DEFAULT = new Token(new TextAttribute(colors.getColor(new RGB(0, 0, 0))));
+        T_DEFAULT = new Token(new TextAttribute(colors.getColor(new RGB(255, 255, 255))));
         T_MACRO = new Token(new TextAttribute(colors.getColor(new RGB(0, 255, 0)), null, SWT.BOLD));
         T_ERROR = new Token(new TextAttribute(colors.getColor(new RGB(255, 0, 0)), null, SWT.BOLD));
         T_COMMENT = new Token(new TextAttribute(colors.getColor(new RGB(128, 0, 0))));
-        T_INSTRUCTION = new Token(new TextAttribute(colors.getColor(new RGB(0, 0, 255)), null, SWT.BOLD));
-        T_OPTION = new Token(new TextAttribute(colors.getColor(new RGB(0, 0, 255))));
-        T_DIRECTIVE = new Token(new TextAttribute(colors.getColor(new RGB(60, 60, 255)), null, SWT.BOLD));
+        T_INSTRUCTION = new Token(new TextAttribute(colors.getColor(new RGB(0, 255, 0)), null, SWT.BOLD));
+        T_OPTION = new Token(new TextAttribute(colors.getColor(new RGB(0, 0, 128))));
+        T_DIRECTIVE = new Token(new TextAttribute(colors.getColor(new RGB(60, 60, 128)), null, SWT.BOLD));
     }
 
     @Override
